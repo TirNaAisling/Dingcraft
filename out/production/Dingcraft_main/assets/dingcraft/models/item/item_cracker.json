@@ -1,0 +1,28 @@
+{
+  "parent": "item/generated",
+  "textures":{
+    "layer0": "dingcraft:items/cracker"
+  },
+  "display":{
+    "gui":{
+      "rotation": [ 0, 0, 0 ],
+      "translation": [ 0.4, -0.2, 0 ],
+      "scale": [ 0.95, 0.95, 0.95 ]
+    },
+    "thirdperson_righthand":{
+      "rotation": [ 50, 0, 0 ],
+      "translation": [ 0, 0.8, 1.8 ],
+      "scale": [ 0.5, 0.5, 0.5 ]
+    },
+    "firstperson_lefthand":{
+      "rotation": [ 50, 0, 0 ],
+      "translation": [ 0, 0.8, 1.8 ],
+      "scale": [ 1, 1, 1 ]
+    },
+    "firstperson_righthand":{
+      "rotation": [ 0, -40, 25 ],
+      "translation": [ 6.2, 3.2, 0 ],
+      "scale": [ 0.8, 0.8, 0.8 ]
+    }
+  }
+}

@@ -1,0 +1,38 @@
+< en_us.lang - Default US English language localization file >
+
+< Items >
+item.cheese.name=Cheese
+item.cheese_slice.name=Cheese Slice
+item.cracker.name=Cracker
+item.cheese_cracker.name=Cheese Cracker
+item.steak_sandwich.name=Steak Sandwich
+
+< Meta Items >
+
+
+< Armor >
+
+
+< Advanced Tools >
+
+
+< Blocks >
+
+
+< Containers >
+
+
+< Tabs >
+itemGroup.dingcraftFoodTab=Dingcraft Food
+
+< Gui >
+
+
+< Achievements >
+
+
+< Subtitles >
+
+
+< Config >
+

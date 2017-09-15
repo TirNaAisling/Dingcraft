@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Dingcraft.iml" filepath="$PROJECT_DIR$/Dingcraft.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Dingcraft_api.iml" filepath="$PROJECT_DIR$/.idea/modules/Dingcraft_api.iml" group="Dingcraft" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Dingcraft_main.iml" filepath="$PROJECT_DIR$/.idea/modules/Dingcraft_main.iml" group="Dingcraft" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Dingcraft_test.iml" filepath="$PROJECT_DIR$/.idea/modules/Dingcraft_test.iml" group="Dingcraft" />
+    </modules>
+  </component>
+</project>

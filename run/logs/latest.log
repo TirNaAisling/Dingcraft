@@ -1,0 +1,65 @@
+[13:50:58] [Client thread/INFO]: Setting user: Player474
+[13:51:01] [Client thread/WARN]: Skipping bad option: lastServer:
+[13:51:01] [Client thread/INFO]: LWJGL Version: 2.9.4
+[13:51:04] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Dingcraft
+[13:51:07] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[13:51:07] [Thread-8/INFO]: Initializing LWJGL OpenAL
+[13:51:07] [Thread-8/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:51:07] [Thread-8/INFO]: OpenAL initialized.
+[13:51:07] [Sound Library Loader/INFO]: Sound engine started
+[13:51:10] [Client thread/INFO]: Created: 16x16 textures-atlas
+[13:51:10] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Dingcraft
+[13:51:12] [Client thread/INFO]: SoundSystem shutting down...
+[13:51:12] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[13:51:12] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[13:51:12] [Thread-10/INFO]: Initializing LWJGL OpenAL
+[13:51:12] [Thread-10/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[13:51:12] [Thread-10/INFO]: OpenAL initialized.
+[13:51:13] [Sound Library Loader/INFO]: Sound engine started
+[13:51:15] [Client thread/INFO]: Created: 512x512 textures-atlas
+[13:51:15] [Client thread/WARN]: Skipping bad option: lastServer:
+[13:51:16] [Realms Notification Availability checker #1/INFO]: Could not authorize you against Realms server: Invalid session id
+[13:51:19] [Client thread/INFO]: Deleting level New World-
+[13:51:19] [Client thread/INFO]: Attempt 1...
+[13:51:23] [Server thread/INFO]: Starting integrated minecraft server version 1.11.2
+[13:51:23] [Server thread/INFO]: Generating keypair
+[13:51:24] [Server thread/INFO]: Preparing start region for level 0
+[13:51:25] [Server thread/INFO]: Preparing spawn area: 11%
+[13:51:26] [Server thread/INFO]: Preparing spawn area: 26%
+[13:51:27] [Server thread/INFO]: Preparing spawn area: 42%
+[13:51:28] [Server thread/INFO]: Preparing spawn area: 61%
+[13:51:29] [Server thread/INFO]: Preparing spawn area: 81%
+[13:51:30] [Server thread/INFO]: Changing view distance to 12, from 10
+[13:51:31] [Server thread/ERROR]: Encountered an unexpected exception
+net.minecraft.util.ReportedException: Ticking memory connection
+	at net.minecraft.network.NetworkSystem.networkTick(NetworkSystem.java:212) ~[NetworkSystem.class:?]
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:818) ~[MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:699) ~[MinecraftServer.class:?]
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:156) ~[IntegratedServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:548) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_144]
+Caused by: java.lang.NullPointerException
+	at uk.co.yogadb.craftlab.dingcraft.event.PlayerEvents.h(PlayerEvents.java:58) ~[PlayerEvents.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_6_PlayerEvents_h_EntityConstructing.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) ~[ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:185) ~[EventBus.class:?]
+	at net.minecraft.entity.Entity.<init>(Entity.java:262) ~[Entity.class:?]
+	at net.minecraft.entity.EntityLivingBase.<init>(EntityLivingBase.java:201) ~[EntityLivingBase.class:?]
+	at net.minecraft.entity.player.EntityPlayer.<init>(EntityPlayer.java:182) ~[EntityPlayer.class:?]
+	at net.minecraft.entity.player.EntityPlayerMP.<init>(EntityPlayerMP.java:167) ~[EntityPlayerMP.class:?]
+	at net.minecraft.server.management.PlayerList.createPlayerForUser(PlayerList.java:514) ~[PlayerList.class:?]
+	at net.minecraft.server.network.NetHandlerLoginServer.tryAcceptPlayer(NetHandlerLoginServer.java:141) ~[NetHandlerLoginServer.class:?]
+	at net.minecraft.server.network.NetHandlerLoginServer.update(NetHandlerLoginServer.java:68) ~[NetHandlerLoginServer.class:?]
+	at net.minecraft.network.NetworkManager.processReceivedPackets(NetworkManager.java:309) ~[NetworkManager.class:?]
+	at net.minecraft.network.NetworkSystem.networkTick(NetworkSystem.java:197) ~[NetworkSystem.class:?]
+	... 5 more
+[13:51:31] [Server thread/ERROR]: This crash report has been saved to: C:\Users\Rod\Documents\Development\Dingcraft\run\.\crash-reports\crash-2017-09-07_13.51.31-server.txt
+[13:51:31] [Server thread/INFO]: Stopping server
+[13:51:31] [Server thread/INFO]: Saving players
+[13:51:31] [Server thread/INFO]: Saving worlds
+[13:51:31] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[13:51:31] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[13:51:31] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[13:51:31] [Client Shutdown Thread/INFO]: Stopping server
+[13:51:31] [Client Shutdown Thread/INFO]: Saving players
+[13:51:31] [Client Shutdown Thread/INFO]: Saving worlds

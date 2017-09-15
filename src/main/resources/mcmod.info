@@ -1,0 +1,16 @@
+[
+{
+  "modid": "dingcraft",
+  "name": "Dingcraft",
+  "description": "Ding! That sound you hear when you attain that new level or achievement. This mod adds level based game play, achievements and more to Minecraft.",
+  "version": "1.0",
+  "mcversion": "1.11.2",
+  "url": "http://www.craftlab.yogadb.co.uk/dingcraft",
+  "updateUrl": "",
+  "authorList": ["TirNaAisling"],
+  "credits": "TirNaAisling Mod Creator, MrCrayfish for the crackers",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
